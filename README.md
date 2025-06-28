@@ -1,56 +1,103 @@
-**CyberBotApp**
+# CyberSecurity Bot (CSB)
 
-**Project Overview**
-A WPF-based desktop application that serves as an interactive cybersecurity assistant, providing information and guidance on various cybersecurity topics through a conversational interface.
+## Overview
+The CyberSecurity Bot is a desktop application designed to educate users about cybersecurity best practices through interactive chat, quizzes, task management, and informational resources. The application provides:
 
-**Features**
-Interactive Chat Interface: Users can ask questions about cybersecurity topics
+- AI-powered chat for answering cybersecurity questions
+- Educational quizzes to test knowledge
+- Task management with reminders
+- Activity logging
+- Information about common cybersecurity threats
 
-Comprehensive Knowledge Base: Covers passwords, phishing, malware, firewalls, VPNs, and more
+## Features
 
-Voice Integration: Optional text-to-speech functionality for accessibility
+### Welcome Screen
+- User name entry with validation
+- Personalized welcome message
+- AI logo display
 
-User-Friendly UI: Clean, modern interface with responsive design
+### Chat Interface
+- Conversational AI that responds to cybersecurity questions
+- Supports queries about:
+  - Phishing
+  - Password security
+  - Malware
+  - Firewalls
+  - VPNs
+  - Encryption
+  - Two-factor authentication
+  - And more
+- Conversation history
+- Clear chat functionality
 
-Topic Suggestions: Provides recommendations for cybersecurity topics to explore
+### Information Section
+- Expandable sections covering:
+  - Phishing awareness
+  - Password creation
+  - Two-factor authentication
+  - Spotting fake websites
 
-**Installation**
-**Prerequisites**
-Windows 10/11
+### Task Management
+- Add tasks with:
+  - Title
+  - Description
+  - Optional reminder dates
+- Mark tasks as complete
+- Delete tasks
+- Visual task list
 
-.NET 6.0 or later
+### Cybersecurity Quiz
+- Multiple-choice questions
+- Immediate feedback with explanations
+- Score tracking
+- Quiz reset option
 
-(Optional) Text-to-speech voices installed for voice features
+### Activity Log
+- Timestamped record of all user actions
+- Clear log functionality
+- Automatic scrolling to newest entries
 
-**Setup**
-Clone the repository:
+## System Requirements
+- Windows OS
+- .NET Framework 4.7.2 or later
+- 500MB disk space
+- 2GB RAM recommended
 
-text
-git clone https://github.com/yourusername/cybersecurity-chatbot.git
-Open the solution in Visual Studio 2022
+## Installation
+1. Download the application package
+2. Run the setup executable
+3. Follow the installation wizard
+4. Launch the application from the Start menu or desktop shortcut
 
-Build the solution (Ctrl+Shift+B)
+## Usage
+1. Start by entering your name on the Welcome tab
+2. Explore the different tabs:
+   - Use the Chat tab to ask cybersecurity questions
+   - Check the Info tab for quick references
+   - Manage tasks in the Tasks tab
+   - Test your knowledge in the Quiz tab
+   - Review your activity in the Activity Log
 
-Run the application (F5)
+## Technical Details
+- Built with WPF (Windows Presentation Foundation)
+- C# .NET application
+- Uses:
+  - SoundPlayer for audio
+  - BitmapImage for logo display
+  - RichTextBox for chat history
+  - Data binding for task management
+  - JSON for data persistence (if implemented)
 
-**Usage**
-Starting a Conversation:
+## Support
+For any issues or questions, please contact:
+support@cybersecuritybot.example.com
 
-Type your cybersecurity question in the input box
+## Version
+1.0.0
 
-Press Enter or click "Send" to submit
+## License
+This application is provided for educational purposes only. All rights reserved.
 
-Available Commands:
 
-Type "topics" to see a list of supported subjects
 
-Type "clear" to reset the conversation
-
-Click the exit button to close the application
-
-Voice Controls:
-
-Enable/disable voice responses in Settings
-
-Adjust voice speed and volume in Settings
 
